@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Categories Shopping</title>
+  </head>
+  <header class="container">
+    <h1>Select your Choice</h1>
+    <section class="btn_option">
+        <ul>
+          <li onclick="openCategory(event,'men')">
+            <img
+              src="./images/icons/boy.svg"
+              alt=""
+            />Men
+          </li>
+          <li onclick="openCategory(event,'women')">
+            <img
+              src="./images/icons/girl.svg"
+              alt=""
+            />Women
+          </li>
+          <li onclick="openCategory(event,'kids')">
+            <img src="./images/icons/kid.png" alt="" />Kids
+          </li>
+        </ul>
+    </section>
+  </header>
+  <main>
+    <div class="productsSection">
+    </div>
+
+    <div class="productsSection" id="men"></div>
+    </div>
+    <div class="productsSection" id="women"></div>
+    </div>
+    <div class="productsSection" id="kids"></div>
+    </div>
+  
+  </main>
+  <body>
+    <script src="./script.js"></script>
+  </body>
+</html>
