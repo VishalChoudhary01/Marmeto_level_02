@@ -3,22 +3,27 @@
 [Link] (https://marmeto-level-02.vercel.app/)
 
 ## Screenshots
-![Desktop](image.png)
+![Desktop](screenshots/image.png)
 
-# Men Sections
+# Women section
 
-![Category button Hover](image-1.png)
-![Product Card Hover](image-2.png)
-![Add To Cart Hover](image-3.png)
-![Add To Cart Clicked](Screenshot.png)
+![Desktop](screenshots/women.png)
 
-# Women Section
+# Kids
+![Desktop](screenshots/kids.png)
 
- ![Women Section](image-4.png)
+# Product Card Hover
+![Desktop](screenshots/ProductCardHover.png)
 
- # Kids section
- ![Kids](image-5.png)
+# Add to Cart Hover
+![Desktop](screenshots/addCartHover.png)
 
- 
+# Category Button Hover
+![Desktop](screenshots/CategorybuttonHover.png)
+
+
+
+
+
 ### Complete Responsive Tested on Smartphone (Xiaomi 11i) and Tablet (Samsung Tab A7 lite)
 ### Handle APi on card details very well
