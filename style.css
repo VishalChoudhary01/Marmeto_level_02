@@ -94,7 +94,7 @@ main{
   position: absolute;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 /* card */
